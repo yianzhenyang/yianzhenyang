@@ -1,0 +1,9 @@
+            // Create a buffered input stream
+            BufferedInputStream bis = new BufferedInputStream(fis);
+            // Create a buffered output stream
+            BufferedOutputStream bos = new BufferedOutputStream(fos);
+ 
+            // The data is read and written to the output stream
+            int data;
+            while ((data = bis.read()) != -1) {
+                bos.write(data);
