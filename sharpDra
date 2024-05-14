@@ -1,0 +1,12 @@
+		_x = 6;
+		_y = 1;
+		return true;
+	}
+
+	sharpDraw(-id);
+	_y++;
+	sharpDraw(id);
+	return false;
+}
+
+bool Game::move(int dir, int id)
