@@ -1,0 +1,8 @@
+		if (chessBoard[row][col] != ' ') {
+			printf("您的坐标位置已经有子了!\n");
+			continue;
+		}
+		chessBoard[row][col] = 'x';
+		break;
+	}
+}
