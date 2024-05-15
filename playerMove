@@ -1,0 +1,10 @@
+void playerMove(char chessBoard[MAX_ROW][MAX_COL]) {
+	while (1) {
+		int row = 0;
+		int col = 0;
+		printf("请输入坐标（row col）：");
+		scanf("%d %d", &row, &col);
+		if (row < 0 || row >= MAX_ROW || col < 0 || col >= MAX_COL) {
+			printf("您的坐标不在合法范围内 [0, 2],请重新输入：\n");
+			continue;
+		}
