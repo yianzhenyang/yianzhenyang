@@ -1,0 +1,10 @@
+{
+int m_a;
+int operator()(){ return m_a; }
+int operator()(int n){ return m_a + n; }
+int triple0(){ return m_a * 3; }
+int triple(int a){ return m_a * 3 + a; }
+int triple1() const { return m_a * 3; }
+const int triple2(int a) const { return m_a * 3+a; }
+void triple3(){ cout << "" <<endl; }
+};
