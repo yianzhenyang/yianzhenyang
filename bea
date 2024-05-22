@@ -1,0 +1,7 @@
+BEA WebLogic Parameters 
+# Set the providerURL and WL_HOME 
+# For providerURL use the 
+# WebLogic Application Server host and port 
+#jndiCtxFactory="weblogic.jndi.WLInitialContextFactory" 
+#providerURL="t3://jndihost.domain.com:80" 
+#WL_HOME="/usr/local/bea/weblogic700/server" 
