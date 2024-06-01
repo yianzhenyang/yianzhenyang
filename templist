@@ -1,0 +1,10 @@
+    nodeptr_t templist = listnode;
+    while (templist->next != nullptr)
+    {
+        if (templist->next->y > 0)
+            (templist->next->y)--;
+        else
+        {
+            nodeptr_t tempnode = templist->next;
+            templist->next = tempnode->next;
+            tempnode->next = nullptr;
