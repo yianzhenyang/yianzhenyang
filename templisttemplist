@@ -1,0 +1,8 @@
+        }
+        if (templist->next != nullptr)
+            templist = templist->next;
+        else
+            break;
+    }
+    return listnode;
+}
